@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('sfondo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Patua One', cursive;
+  padding: 150px
+}
+
+.contenitore{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 70px;
+}
+
+
+img{
+  width: 200px;
+}
+
+h1 {
+  color: lime;
+}
+
+.buttons{
+  height: 50px;
+  margin: auto;
+  background-color: lime;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px
+}
+
+.monopattini{
+  text-align: left;
+  color: white;
+}
+.barra_arancione{
+  background-color: orange;
+  border-radius: 10px;
+  padding: 10px;
+  width: 40%
+}
+.barra_verde{
+  background-color: lime;
+  border-radius: 10px;
+  padding: 10px;
+  width: 70%
+}
+.barra_rossa{
+  background-color: red;
+  border-radius: 10px;
+  padding: 10px;
+  width: 10%
+}
